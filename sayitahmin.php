@@ -11,7 +11,7 @@
 <body>
 
     <?php
-    $rand = rand(1,2);
+    $rand = rand(0,100);
     $sayi = $_POST['sayi'];
     if (isset($_POST['kontrol'])) {
         if ($sayi> 100) 
